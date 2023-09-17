@@ -3,7 +3,9 @@ import { AuthContext, authReducer } from './';
 import { types } from '../types/types';
 
 const init = () => {
-  const user = JSON.parse( localStorage.getItem('user') );
+  const user = localStorage.getItem('user')
+  ? JSON.parse( localStorage.getItem('user') )
+  : null
 
   return {
     logged: !!user,
