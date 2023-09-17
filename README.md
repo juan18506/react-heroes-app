@@ -1,7 +1,6 @@
 # React heroes app
 
-It is a simple react app in which you can do a search and gifs related to that search
-will be displayed!, it was made using GIPHY API.
+It is an app to search and watch information about Marvel and Dc heroes builded to practice React Router.
 
 [![Live Site](https://img.shields.io/static/v1?label=&message=Live%20Site&color=167200&style=for-the-badge)](https://juan18506.github.io/react-heroes-app/)
 [![Github Repository](https://img.shields.io/static/v1?label=&message=Github%20Repository&color=000000&style=for-the-badge&logo=github&logoColor=white)](https://github.com/juan18506/react-heroes-app/)
