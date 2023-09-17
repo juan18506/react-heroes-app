@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { HeroesApp } from './HeroesApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/react-heroes-app'>
     <React.StrictMode>
       <HeroesApp />
     </React.StrictMode>
