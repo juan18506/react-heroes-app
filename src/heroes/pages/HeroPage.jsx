@@ -19,7 +19,7 @@ export const HeroPage = () => {
     <div className="row mt-5 " >
       <div className="col-4">
         <img 
-          src={ `/heroes/${ id }.jpg` } 
+          src={ `/react-heroes-app/heroes/${ id }.jpg` } 
           alt={ hero.superhero } 
           className="img-thumbnail animate__animated animate__fadeInLeft"
         />
