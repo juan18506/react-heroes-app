@@ -7,7 +7,6 @@ import { AuthContext } from '../../src/auth';
 describe('Tests in <PrivateRoute />', () => {
 
   afterEach(() => {
-    vi.clearAllMocks();
     cleanup();
   });
 

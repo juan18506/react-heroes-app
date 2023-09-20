@@ -1,4 +1,4 @@
-import { describe, test, it, expect, afterEach, vi } from 'vitest';
+import { describe, it, expect, afterEach } from 'vitest';
 import { screen, render, cleanup } from '@testing-library/react';
 import { AppRouter } from '../../src/router';
 import { MemoryRouter } from 'react-router-dom';
@@ -7,7 +7,6 @@ import { AuthContext } from '../../src/auth';
 describe('Tests in <AppRouter />', () => {
 
   afterEach(() => {
-    vi.clearAllMocks();
     cleanup();
   });
 
