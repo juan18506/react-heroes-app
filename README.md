@@ -18,7 +18,10 @@ It is an app to search and watch information about Marvel and Dc heroes builded 
   - Login and logout  
   - Record last path visited.
   - Context 
-  - Reducer
+  - Reducer    
+  - Tests in public and private routes
+  - MemoryRouter
+  - simulate URLs and queryParams
 
 ## Author 
 
